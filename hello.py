@@ -31,6 +31,8 @@ current_language = os.getenv("LANG", "en_US")[:5]
 
 msg = "Hello World!"
 
+#Condicional
+
 if current_language == "pt_BR":
     msg = "Olá Mundo!"
 elif current_language == "it_IT":
