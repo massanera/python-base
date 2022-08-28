@@ -5,13 +5,10 @@ Dependendo da lingua configurada no ambiente o programa exibe a mensagem
 correspondente.
 
 Modo de uso:
-
 Tenha a variavel LANG devidamente configurada
-
     export LANG=pt_BR
 
 Execução:
-
     python3 hello.py
     ou
     ./hello.py
@@ -28,7 +25,6 @@ import os
 # Este é o meu primeiro programa de muitos
 
 current_language = os.getenv("LANG", "en_US")[:5]
-
 msg = "Hello World!"
 
 #Condicional
@@ -42,4 +38,4 @@ elif current_language == "es_SP":
 elif current_language == "fr_FR":
     msg = "Bonjour Monde!"   
    
-print (msg)
+print (msg) 
